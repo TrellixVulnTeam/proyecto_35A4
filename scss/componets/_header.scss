@@ -1,0 +1,55 @@
+%principal{
+    display: flex;
+    justify-content: center;
+    color:rgb(0, 0, 0) ;
+    font-family: 'Roboto Slab', serif;
+  
+}
+
+.imagen-principal{
+    width: 1550px;
+}
+.parrafo-principal{
+    @extend%principal;
+    font-size: 50px;
+    margin-bottom: 0px;
+   
+
+}
+
+.parrafo-principal1{
+    @extend%principal;
+    font-size: 30px;
+    margin-top: 0px;
+    margin-bottom: 50px;
+
+}
+
+.pagina-principal{
+          
+    text-align: center;
+
+    button{
+        text-decoration: none;
+    background-color: red;
+    color: white;
+    padding: 5px;
+    font-size: 35px;
+    border-radius: 15px;
+    border: none;
+    transition: 1s;
+    &:hover{
+        transform: scale(1.2);
+        background-color: rgb(182, 182, 182);
+        color: rgb(255, 255, 255);
+        }
+
+        a{
+          text-decoration: none;
+         color: white; 
+        }
+     
+   
+    
+    }
+}
