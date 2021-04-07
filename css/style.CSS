@@ -4,61 +4,62 @@
   box-sizing: border-box;
 }
 
+.F{
+  background-image: url(../img/IF.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 
+}
 
 .title {
   display: flex;
   justify-content: center;
-  color: black;
-  font-family: "Roboto Slab", serif;
-  font-size: 50px;
+  color: #e0b05b;
+  font-family:'Tangerine', cursive;
+  font-size: 100px;
   margin-bottom: 0px;
+  margin-top: 300px;
+  margin-left: 100px;
 }
 
-.parrafo-principal1, .parrafo-principal {
+.title-2 {
   display: flex;
   justify-content: center;
-  color: black;
-  font-family: "Roboto Slab", serif;
-  
-}
-
-.imagen-principal {
-  width: 1550px;
-}
-
-.parrafo-principal {
-  font-size: 40px;
+  color: #e0b05b;
+  font-family: 'Noto Sans JP', sans-serif;
+  font-size: 100px;
   margin-bottom: 0px;
+  margin-left: 500px;
+
+
 }
 
-.parrafo-principal1 {
-  font-size: 30px;
-  margin-top: 0px;
-  margin-bottom: 50px;
-}
+
 
 .pagina-principal {
   text-align: center;
+
 }
 .pagina-principal button {
   text-decoration: none;
-  background-color: red;
-  color: white;
+  background-color:#1c252c ;
+  color: #e0b05b;
   padding: 5px;
   font-size: 35px;
   border-radius: 15px;
   border: none;
   transition: 1s;
+  margin-top: 100px;
+  margin-left: 500px;
 }
 .pagina-principal button:hover {
   transform: scale(1.2);
   background-color: #b6b6b6;
-  color: white;
+  color: rgb(0, 0, 0);
 }
 .pagina-principal button a {
   text-decoration: none;
-  color: white;
+  color: #e0b05b;
 }
 
 .ca {
