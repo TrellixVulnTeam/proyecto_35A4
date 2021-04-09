@@ -1,29 +1,41 @@
 %principal{
     display: flex;
     justify-content: center;
-    color:rgb(0, 0, 0) ;
-    font-family: 'Roboto Slab', serif;
+    font-size: 100px;
+    margin-bottom: 0%;
   
 }
 
-.imagen-principal{
-    width: 1550px;
-}
-.parrafo-principal{
+
+
+$color-letra: #e0b05b;
+$fuente1:'Tangerine', cursive;
+$fuente2 : 'Noto Sans JP', sans-serif;
+$color-fondo : #1c252c ;
+
+
+
+.body-index{
+    background-image: url(../img/IF.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+  }
+
+.title{
     @extend%principal;
-    font-size: 50px;
-    margin-bottom: 0px;
-   
-
+    color: $color-letra;
+    margin-top: 300px ;
+    margin-left: 100px;
+    font-family: $fuente1;
 }
-
-.parrafo-principal1{
+.title-2 {
     @extend%principal;
-    font-size: 30px;
-    margin-top: 0px;
-    margin-bottom: 50px;
-
+    color: $color-letra;
+    margin-left: 500px;
+    font-family: $fuente2;
 }
+
 
 .pagina-principal{
           
@@ -31,13 +43,15 @@
 
     button{
         text-decoration: none;
-    background-color: red;
-    color: white;
+    background-color: $color-fondo;
+    color:$color-letra;
     padding: 5px;
     font-size: 35px;
     border-radius: 15px;
     border: none;
     transition: 1s;
+    margin-left: 500px;
+    margin-top: 100px;
     &:hover{
         transform: scale(1.2);
         background-color: rgb(182, 182, 182);
@@ -46,7 +60,7 @@
 
         a{
           text-decoration: none;
-         color: white; 
+         color:$color-letra; 
         }
      
    

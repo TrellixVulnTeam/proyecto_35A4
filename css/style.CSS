@@ -4,58 +4,51 @@
   box-sizing: border-box;
 }
 
-.F{
+.title-2, .title {
+  display: flex;
+  justify-content: center;
+  font-size: 100px;
+  margin-bottom: 0%;
+}
+
+.body-index {
   background-image: url(../img/IF.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-
 }
 
 .title {
-  display: flex;
-  justify-content: center;
   color: #e0b05b;
-  font-family:'Tangerine', cursive;
-  font-size: 100px;
-  margin-bottom: 0px;
   margin-top: 300px;
   margin-left: 100px;
+  font-family: "Tangerine", cursive;
 }
 
 .title-2 {
-  display: flex;
-  justify-content: center;
   color: #e0b05b;
-  font-family: 'Noto Sans JP', sans-serif;
-  font-size: 100px;
-  margin-bottom: 0px;
   margin-left: 500px;
-
-
+  font-family: "Noto Sans JP", sans-serif;
 }
-
-
 
 .pagina-principal {
   text-align: center;
-
 }
 .pagina-principal button {
   text-decoration: none;
-  background-color:#1c252c ;
+  background-color: #1c252c;
   color: #e0b05b;
   padding: 5px;
   font-size: 35px;
   border-radius: 15px;
   border: none;
   transition: 1s;
-  margin-top: 100px;
   margin-left: 500px;
+  margin-top: 100px;
 }
 .pagina-principal button:hover {
   transform: scale(1.2);
   background-color: #b6b6b6;
-  color: rgb(0, 0, 0);
+  color: white;
 }
 .pagina-principal button a {
   text-decoration: none;
@@ -91,7 +84,7 @@
 
 .nav ul {
   list-style: none;
-  font-family: 'Oswald', sans-serif;
+  font-family: "Oswald", sans-serif;
   font-size: 20px;
 }
 .nav ul li {
@@ -111,71 +104,71 @@
 
 .titulo {
   font-size: 40px;
-  font-family: 'Noto Sans JP', sans-serif;
-  color: #fbffff;
+  font-family: "Noto Sans JP", sans-serif;
+  color: white;
   display: inline-block;
   margin-right: 7px;
 }
 
-.logo{
-  width: 60px;
-  margin-bottom: 20px;
-}
-
-.titulo02{
+.titulo02 {
   font-size: 45px;
-  font-family: 'Archivo Narrow', sans-serif;
+  font-family: "Archivo Narrow", sans-serif;
   display: inline-block;
   margin-left: 7px;
 }
 
+.logo {
+  width: 60px;
+  margin-bottom: 20px;
+}
 
 .BLA {
-font-size: 25px;
-background-color: #1c252c;
-font-family: 'Oswald', sans-serif;
+  font-size: 25px;
+  background-color: #1c252c;
+  font-family: "Oswald", sans-serif;
 }
 
 .BLE {
   font-size: 30px;
+  background-color: #1c252c;
   margin-bottom: 100px;
-  background-color: #1c252c;
-  font-family: 'Oswald', sans-serif;
+  font-family: "Oswald", sans-serif;
 }
-.Nosotros{
+
+#Contacto, .Especializacion, .C1, #Servicios, .Nosotros {
   background-color: #1c252c;
+  text-align: center;
   padding-top: 200px;
   padding-bottom: 200px;
   color: #fbffff;
-
 }
-.titulonosotros{
+
+.t10, .t8, .t7, .t5, .titulo2, .titulonosotros {
   color: #e0b05b;
   text-align: center;
   font-size: 130px;
-  font-family: 'Tangerine', cursive;
+  font-family: "Tangerine", cursive;
   margin-bottom: 50px;
 }
 
-.parrafo-nosotros{
-
-margin-left: 50px;
-font-family: 'Playfair Display SC', serif;
-font-size: 20px;
+.parrafo-nosotros {
+  margin-left: 50px;
+  font-family: "Playfair Display SC", serif;
+  font-size: 20px;
 }
 
-.parrafo-nosotros2{
-text-align: center;
-font-family: 'Playfair Display SC', serif;
-font-size: 20px;
-margin-top: 10px;
-
+.parrafo-nosotros2 {
+  text-align: center;
+  font-family: "Playfair Display SC", serif;
+  font-size: 20px;
+  margin-top: 10px;
 }
 
-.boton-consulta{
+.boton-consulta {
   text-align: center;
   margin-top: 60px;
 }
+
 .boton-nosotros {
   text-decoration: none;
   background-color: #304453;
@@ -183,51 +176,95 @@ margin-top: 10px;
   border-radius: 5px;
   padding: 10px;
   font-size: 30px;
-
 }
-.boton-nosotros:hover{
+.boton-nosotros:hover {
   background-color: #fbffff;
   color: #000000;
 }
 
+.x3, .x2 {
+  display: flex;
+  justify-content: space-between;
+}
 
-.C1{
-  background-color: #1c252c;
-  padding-top: 200px;
-  padding-bottom: 200px;
+.S4, .S3, .S2, .S1 {
+  font-family: "Playfair Display SC", serif;
+  margin: 30px 50px 30px 50px;
+  background-color: white;
+  padding: 0 20px 60px 20px;
+  border-radius: 20px;
+  transition: 0.5s;
+  color: black;
+  font-size: 30px;
+}
+
+.S4:hover, .S3:hover, .S2:hover, .S1:hover {
+  transform: translate(50px, 30px);
+  background-color: #e0b05b;
+  color: #fdfdfd;
+  font-size: 25px;
+}
+
+#Servicios ul li {
+  text-align: left;
+}
+
+.p2 {
+  text-align: center;
+  font-family: "Playfair Display SC", serif;
+  font-size: 30px;
+  margin-top: 10px;
   color: #fbffff;
 }
-.t7{
-  color: #e0b05b;
-  text-align: center;
-  font-size: 130px;
-  font-family: 'Tangerine', cursive;
-  margin-bottom: 50px;
-}
 
-
-.P3{
+.t4 {
   text-align: left;
   font-size: 40px;
-  font-family: 'Playfair Display SC', serif;
+  margin-bottom: 10px;
+  margin-left: 40px;
+}
+
+.P8 {
+  text-align: left;
+  font-size: 20px;
+  margin-left: 60px;
+}
+
+.t6 {
+  font-size: 30px;
+  padding-bottom: 35px;
+  padding-top: 40px;
+}
+
+.X1 {
+  display: inline-block;
+  flex-direction: column;
+  font-family: "Playfair Display SC", serif;
+}
+
+.P3 {
+  text-align: left;
+  font-size: 40px;
+  font-family: "Playfair Display SC", serif;
   margin-bottom: 30px;
   margin-left: 40px;
   text-decoration: underline;
 }
-.P4{
-  text-align: left;
-   font-size: 28px;
-   margin-left: 60px;
-   font-family: 'Playfair Display SC', serif;
 
+.P4 {
+  text-align: left;
+  font-size: 28px;
+  margin-left: 60px;
+  font-family: "Playfair Display SC", serif;
 }
-.P5{
+
+.P5 {
   text-align: center;
   font-size: 30px;
   margin-left: 60px;
-  font-family: 'Playfair Display SC', serif;
- 
+  font-family: "Playfair Display SC", serif;
 }
+
 .form-row {
   width: 60%;
   padding: 50px;
@@ -235,15 +272,26 @@ margin-top: 10px;
   display: inline-block;
 }
 
-.formulario{
+.formulario {
   margin: 0% auto;
   display: flex;
   flex-direction: column;
-  
- 
 }
-
-.formulario input[type="text"] {
+.formulario input[type=text] {
+  background-color: #fff;
+  border: 1px solid black;
+  border-radius: 3px;
+  width: 100%;
+  padding: 7px;
+  font-size: 14px;
+}
+.formulario label {
+  margin-bottom: 20px;
+  text-align: left;
+  font-size: 15px;
+  margin-top: 20px;
+}
+.formulario input[type=email] {
   background-color: #fff;
   border: 1px solid #000000;
   border-radius: 3px;
@@ -251,283 +299,80 @@ margin-top: 10px;
   padding: 7px;
   font-size: 14px;
 }
-.formulario label{
-  margin-bottom: 20px;
-  text-align: left;
-  font-size: 15px;
-  margin-top: 20px;
+.formulario input[type=text]:invalid,
+.formulario input[type=email]:invalid {
+  border: 2px solid red;
 }
-.formulario input[type="email"] {
-  background-color: #fff;
-  border: 1px solid #000000;
+.formulario button {
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: #5995DA;
+  border: none;
   border-radius: 3px;
-  width: 100%;
-  padding: 7px;
-  font-size: 14px; }
+  padding: 20px 5px 20px 5px;
+  cursor: pointer;
+  margin-top: 30px;
+  width: 20%;
+}
+.formulario button:hover {
+  background-color: #76AEED;
+}
+.formulario button:active {
+  background-color: #407fc7;
+}
 
-  .formulario input[type="text"]:invalid,
-  .formulario input[type="email"]:invalid {
-  border: 2px solid red;}
-
-
-  .formulario button {
-      color: #fff;
-      font-size: 16px;
-      font-weight: bold;
-      background-color: #5995DA;
-      border: none;
-      border-radius: 3px;
-      padding: 20px 5px 20px 5px;
-      cursor: pointer;
-      margin-top: 30px;
-     width: 20%;
-  }
-  
-  .formulario button:hover {
-      background-color: #76AEED;
-  }
-  
-  .formulario button:active {
-      background-color: #407fc7;
-  }
-  
-
-
-#Servicios{
- text-align: center;
-  padding-top: 200px;
-  padding-bottom: 200px;
-  margin: 0% auto;
-  background-color: #1c252c;
-  
- 
-  
-}
-.titulo2{
-  color: #e0b05b;
-  text-align: center;
-  font-size: 130px;
-  font-family: 'Tangerine', cursive;
-  margin-bottom: 50px;
-}
-.p2{
-  text-align: center;
-font-family: 'Playfair Display SC', serif;
-font-size: 30px;
-margin-top: 10px;
-color: #fbffff;
-  
-}
-.t4{ 
-  text-align: left;
-  font-size: 40px;
-  margin-bottom: 10px;
-  margin-left: 40px;
-  
-}
-.P8{
-  text-align: left;
-  font-size: 20px;
-  margin-left: 60px;
-
-
-}
-.t5{
-  color: #e0b05b;
-  text-align: center;
-  font-size: 130px;
-  font-family: 'Tangerine', cursive;
-  margin-bottom: 50px;
-}
-.t6{
-  font-size: 30px;
-  padding-bottom: 35px;
-  padding-top: 40px;
-}
-#Servicios ul li{
-  text-align: left;
-  
-}
-.X1{
-  display: inline-block;
-  flex-direction: column;
-  font-family: 'Playfair Display SC', serif;
-  
-   
-}
-.x2{
-  display: flex;
-  justify-content: space-between;
-}
-.x3{
-  display: flex;
-  justify-content: space-between;
-}
-.S1{
-  font-family: 'Playfair Display SC', serif;
-  margin: 30px 50px 30px 50px;
-  background-color: rgb(255, 255, 255);
-  padding: 0 20px 60px 20px;
-  border-radius: 20px;
-  transition: 0.5s;
-  color: rgb(0, 0, 0);
-  font-size: 30px;
-}
-.S2{
-  font-family: 'Playfair Display SC', serif;
-  margin: 30px 50px 30px 50px;
-  background-color: rgb(255, 255, 255);
-  padding: 0 60px 60px 60px;
-  border-radius: 20px;
-  transition: 0.5s;
-  color: rgb(0, 0, 0);
-  font-size: 30px;
-
-}
-.S3{
-  font-family: 'Playfair Display SC', serif;
-  margin: 30px 50px 30px 50px;
-  background-color: rgb(255, 255, 255);
-  padding: 0 20px 60px 20px;
-  border-radius: 20px;
-  transition: 0.5s;
-  color: rgb(0, 0, 0);
-  font-size: 30px;
-}
-.S4{
-  font-family: 'Playfair Display SC', serif;
-  margin: 30px 50px 30px 50px;
-  background-color: rgb(255, 255, 255);
-  padding: 0 60px 60px 60px;
-  border-radius: 20px;
-  transition: 0.5s;
-  color: rgb(0, 0, 0);
-  font-size: 30px;
-}
-.S1:hover{
-transform: translate(50px,30px);
-background-color: #e0b05b;
-color: rgb(253, 253, 253);
-font-size: 25px;
-}
-.S3:hover{
-  transform: translate(50px,30px);
-  background-color:  #e0b05b;
-  color: rgb(255, 255, 255);
-  font-size: 25px;
-
- }
- 
-.S2:hover{
-  transform: translate(50px,30px);
-  background-color:#e0b05b;
-  color: rgb(241, 237, 237);
-  font-size: 20px;
- }
- .S4:hover{
-  transform: translate(50px,30px);
-  background-color:#e0b05b;
-  color: rgb(241, 237, 237);
-  font-size: 20px;
- }
-
-.i8{
-  padding-bottom: 200px;
-}
-.Especializacion{
- text-align: center;
-  padding-top: 200px;
-  padding-bottom: 200px;
-  margin: 0% auto;
-  background-color: #1c252c;
-  color: #fbffff;
-}
-.t8{
-  color: #e0b05b;
-  text-align: center;
-  font-size: 130px;
-  font-family: 'Tangerine', cursive;
-  margin-bottom: 50px;
-  
-}
 .titulos-Especializacion {
   color: #e0b05b;
   text-align: center;
   font-size: 50px;
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display SC", serif;
   margin-bottom: 50px;
-  
 }
-.subtiulo-especializaciones{
-  font-family: 'Playfair Display SC', serif;
+
+.subtiulo-especializaciones {
+  font-family: "Playfair Display SC", serif;
   font-size: 30px;
 }
-.texto-especializaciones{
-  font-family: 'Playfair Display SC', serif;
+
+.texto-especializaciones {
+  font-family: "Playfair Display SC", serif;
   font-size: 20px;
 }
 
+#Contacto img {
+  width: 40px;
+}
 
-#Contacto{
-  text-align: center;
-  padding-top: 200px;
-  padding-bottom: 200px;
-  margin: 0% auto;
-  background-color: #1c252c;
+.link {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+}
+.link img {
+  border-radius: 50px;
+  margin-top: 10px;
+}
+.link img:hover {
+  transform: scale(1.3);
+  transition: 1s;
+}
+
+.informacion {
+  text-align: start;
+  align-items: center;
+  font-family: "Oswald", sans-serif;
+  font-size: 30px;
   color: #fbffff;
-}
-#Contacto img{
-
-   width: 40px;
+  margin-top: 80px;
 }
 
-.t10{
-  color: #e0b05b;
-  text-align: center;
-  font-size: 130px;
-  font-family: 'Tangerine', cursive;
-  margin-bottom: 50px;
+.infomap {
+  display: flex;
+  justify-content: space-around;
 }
- .mapa{margin-left: 60px;
- }
-
-.link{
-    display: flex;
-    flex-direction: column ;
-    align-items: flex-end;
-    position: fixed;
-    bottom: 30px;
-    right: 30px;
-    
-    
-}
-
-.link img{
-    border-radius: 50px;
-    margin-top: 10px;
-}
- 
-.link :hover{
-    transform: scale(1.3);
-    transition: 1s;
-}
- 
-.informacion{
- text-align: start;
- align-items: center;
- font-family: 'Oswald', sans-serif;
- font-size: 30px;
- color: #fbffff;
- margin-top: 80px;
-
-
-}
-
-.infomap{
-    display: flex;
-    justify-content: space-around;
-}
-
-
 
 /*# sourceMappingURL=style.css.map */

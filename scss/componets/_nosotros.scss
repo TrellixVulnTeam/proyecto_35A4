@@ -1,0 +1,53 @@
+%base{
+    background-color: #1c252c;
+    text-align: center;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    color: #fbffff;
+}
+%encabezados {
+    color: #e0b05b;
+    text-align: center;
+    font-size: 130px;
+    font-family: $fuente1 ;
+    margin-bottom: 50px;
+}
+$fuente3 : 'Playfair Display SC', serif;
+.Nosotros{
+    @extend%base
+}
+.titulonosotros{
+    @extend%encabezados
+
+}
+
+.parrafo-nosotros{
+
+    margin-left: 50px;
+    font-family: 'Playfair Display SC', serif;
+    font-size: 20px;
+    }
+.parrafo-nosotros2{
+    text-align: center;
+    font-family: $fuente3 ;
+    font-size: 20px;
+    margin-top: 10px;
+}
+.boton-consulta{
+    text-align: center;
+    margin-top: 60px;
+  }
+  .boton-nosotros {
+    text-decoration: none;
+    background-color: #304453;
+    color:$color-letra;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 30px;
+       &:hover{
+        background-color: #fbffff;
+        color: #000000;
+
+       }
+  
+  }

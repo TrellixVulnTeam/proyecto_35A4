@@ -1,0 +1,100 @@
+%flexsb{
+    display: flex;
+    justify-content: space-between
+}
+%eneunciados-servicios{
+    font-family: $fuente3;
+    margin: 30px 50px 30px 50px;
+    background-color: $bg-let;
+    padding: 0 20px 60px 20px;
+    border-radius: 20px;
+    transition: 0.5s;
+    color:$c-l;
+    font-size: 30px;
+
+}
+
+%eneunciados-servicios-hover {
+transform: translate(50px,30px);
+background-color: #e0b05b;
+color: rgb(253, 253, 253);
+font-size: 25px; 
+}
+
+#Servicios{
+    @extend%base ;
+
+    ul li{
+        text-align: left;
+    }
+    
+}
+.titulo2{
+    @extend%encabezados
+}
+
+.p2{
+    text-align: center;
+  font-family: $fuente3 ;
+  font-size: 30px;
+  margin-top: 10px;
+  color: #fbffff;
+}
+.t4{ 
+    text-align: left;
+    font-size: $letrageneral;
+    margin-bottom: 10px;
+    margin-left: $letrageneral;
+  }
+
+  .P8{
+    text-align: left;
+    font-size: 20px;
+    margin-left: 60px;
+  }
+
+  .t5{
+    @extend%encabezados
+  }
+  .t6{
+    font-size: 30px;
+    padding-bottom: 35px;
+    padding-top:  $letrageneral;
+  }
+  .X1{
+    display: inline-block;
+    flex-direction: column;
+    font-family: $fuente3;
+     
+  }
+  .x2{
+   @extend%flexsb
+  }
+  .x3{
+    @extend%flexsb 
+  }
+
+  .S1{
+    @extend%eneunciados-servicios;
+    &:hover{
+        @extend%eneunciados-servicios-hover
+    }
+  }
+  .S2{
+    @extend%eneunciados-servicios;
+    &:hover{
+        @extend%eneunciados-servicios-hover
+    }
+  }
+  .S3{
+    @extend%eneunciados-servicios;
+    &:hover{
+        @extend%eneunciados-servicios-hover
+    }
+  }
+  .S4{
+    @extend%eneunciados-servicios;
+    &:hover{
+        @extend%eneunciados-servicios-hover
+    }
+  }

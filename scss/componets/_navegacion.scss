@@ -3,10 +3,12 @@ $bg-let: rgb(255, 255, 255);
 $nod:  none;
 $c-l: black;
 $letrageneral:40px;
+$tamaño1:80px;
+$fuente-nav :'Oswald', sans-serif;
 
 
 .ca{
-    background-color:$bg-nav;
+    background-color:$color-fondo;
     color: $bg-let;
     padding-top: 15px;
     padding-bottom: 15px;
@@ -25,25 +27,27 @@ $letrageneral:40px;
     }
 }
 
-%flexsb{
+%flexsbac{
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 .menu{ 
-    @extend %flexsb; 
-    padding-right: 80px;
+    @extend %flexsbac; 
+    padding-right: $tamaño1;
 } 
 
 .nav ul { 
 
     list-style: none;
+    font-family: $fuente-nav;
+    font-size: 20px;
 
     li{
         display: inline-block;
         a {
             display: block; 
-            padding: 4 px 20px 4px 20px ;
+            padding: 4px 20px 4px 20px ;
             transition: 1s;
             border-radius: 5px;
             &:hover{
@@ -58,17 +62,35 @@ $letrageneral:40px;
 }
  
 .titulo {
-    font-size: $letrageneral
+    font-size: $letrageneral ;
+    font-family: $fuente2;
+    color: $bg-let;
+    display: inline-block;
+    margin-right:7px;
+
     
 }
-.inicio img {
-    margin-left: 10px;
-    margin-top: 90px;
-   height: 550px;
+
+.titulo02{
+    font-size: 45px;
+    font-family: 'Archivo Narrow', sans-serif;
+    display: inline-block;
+    margin-left: 7px;
+}
+
+
+.logo {
+   width: 60px;
+   margin-bottom: 20px;
 }    
 .BLA{
-    color: $c-l;
+    font-size: 25px;
+    background-color: $color-fondo;
+    font-family: $fuente-nav;
 }
 .BLE{
-    background-color: $c-l;
+    font-size: 30px;
+    background-color: $color-fondo;
+    margin-bottom: 100px;
+    font-family: $fuente-nav;
 }
