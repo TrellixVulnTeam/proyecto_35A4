@@ -17,6 +17,7 @@
      font-size: 28px;
      margin-left: 60px;
      font-family: $fuente3;
+     margin-right: 4rem;
   
   }
   .P5{
@@ -90,3 +91,70 @@ button {
 
     
  }
+
+ @media (max-width: 575.98px){
+  .t7 {
+      font-size: 3.8rem; }
+
+      .P3,.P5{
+      font-size: 1.2rem;
+    }
+    .P4{
+
+      font-size: 1rem;
+
+    }
+    .formulario button{
+      padding-right: 3.2rem;
+      padding-top: 0.8rem;
+      padding-bottom: 0.8rem;
+    }
+    textarea {
+      height: 9rem;
+  }
+
+  }
+  @media (min-width: 576px) and (max-width: 767.98px){
+    .t7 {
+      font-size: 3.8rem; }
+
+      .P3,.P5{
+      font-size: 1.2rem;
+    }
+    .P4{
+
+      font-size: 1.2rem;
+
+    }
+    .formulario button{
+      padding-right: 3.2rem;
+      padding-top: 0.8rem;
+      padding-bottom: 0.8rem;
+    }
+    textarea {
+      height: 9rem;
+  }
+
+  }
+  @media (min-width: 768px) and (max-width: 991.98px){
+    .t7 {
+      font-size: 4.8rem; }
+
+      .P3,.P5{
+      font-size: 1.7rem;
+    }
+    .P4{
+
+      font-size: 1.7rem;
+
+    }
+    .formulario button{
+      
+      padding-top: 0.8rem;
+      padding-bottom: 0.8rem;
+    }
+    textarea {
+      height: 9rem;
+  }
+
+  }

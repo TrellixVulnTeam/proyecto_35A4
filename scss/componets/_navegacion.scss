@@ -94,3 +94,68 @@ $fuente-nav :'Oswald', sans-serif;
     margin-bottom: 100px;
     font-family: $fuente-nav;
 }
+
+.navbar-toggler-icon{
+    font-size: 3rem;
+    color: white;
+}
+
+@media (max-width: 575.98px){
+    .titulo,.titulo02{
+        display: none;
+        
+}
+     .logo{
+         width: 4rem;
+         margin: auto;
+         }
+         .ca{
+            padding: 0 0 0 2rem;
+             }
+         .menu{
+            padding-right: 2rem;
+                 }
+         .nav ul {
+            font-size: 0.8rem;
+                 }
+    
+}
+@media (min-width: 576px) and (max-width: 767.98px){
+    .titulo,.titulo02 {
+        display: none;
+        
+}
+     .logo{
+         width: 4rem;
+         margin: auto;
+         }
+         .ca{
+            padding: 0 0 0 3rem;
+             }
+         .menu{
+            padding-right: 6rem;
+                 }
+         .nav ul {
+            font-size: 1.2rem;
+                 }
+
+}
+@media (min-width: 768px) and (max-width: 991.98px){
+    .titulo,.titulo02 ,.BLA ,.BLE {
+        display: none;
+        
+}
+     .logo{
+         width: 4rem;
+         margin: auto;
+         }
+         .ca{
+            padding: 0 0 0 3rem;
+             }
+         .menu{
+            padding-right: 6rem;
+                 }
+         .nav ul {
+            font-size: 1.2rem;
+                 }
+}

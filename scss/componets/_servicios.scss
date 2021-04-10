@@ -33,12 +33,19 @@ font-size: 25px;
     @extend%encabezados
 }
 
+.f1{
+  display: flex;
+  flex-direction: column;
+}
+
 .p2{
     text-align: center;
   font-family: $fuente3 ;
   font-size: 30px;
   margin-top: 10px;
   color: #fbffff;
+  margin-left: 2rem;
+  margin-right: 2rem;
 }
 .t4{ 
     text-align: left;
@@ -68,10 +75,14 @@ font-size: 25px;
      
   }
   .x2{
-   @extend%flexsb
+   @extend%flexsb;
+   padding: 1rem;
+   margin: auto;
   }
   .x3{
-    @extend%flexsb 
+    @extend%flexsb ;
+    padding: 1rem;
+    margin: auto;
   }
 
   .S1{
@@ -98,3 +109,78 @@ font-size: 25px;
         @extend%eneunciados-servicios-hover
     }
   }
+
+@media (max-width: 575.98px){
+  .titulo2,.t5{
+    font-size: 3.8rem;
+    
+  }
+  .p2{
+    font-size: 1.2rem;
+  }
+.S1,.S2,.S3,.S4 {
+  font-size: 1.2rem;
+  margin: 0 0 2rem 0 ;
+}
+.t6{
+  font-size: 1.4rem;
+}
+.x2{
+  padding: 1rem;
+  margin: auto;
+}
+.x3{
+  padding: 1rem;
+  margin: auto;
+}
+}
+@media (min-width: 576px) and (max-width: 767.98px){
+  .titulo2,.t5{
+    font-size: 3.8rem;
+    
+  }
+  .p2{
+    font-size: 1.2rem;
+  }
+.S1,.S2,.S3,.S4 {
+  font-size: 1.2rem;
+  margin: 0 0 2rem 0 ;
+}
+.t6{
+  font-size: 1.4rem;
+}
+.x2{
+  padding: 1rem;
+  margin: auto;
+}
+.x3{
+  padding: 1rem;
+  margin: auto;
+}
+
+}
+@media (min-width: 768px) and (max-width: 991.98px){
+  .titulo2,.t5{
+    font-size: 4.8rem;
+    
+  }
+  .p2{
+    font-size: 1.7rem;
+  }
+.S1,.S2,.S3,.S4 {
+  font-size: 1.7rem;
+  margin: 0 0 2rem 0 ;
+}
+.t6{
+  font-size: 1.9rem;
+}
+.x2{
+  padding: 1rem;
+  margin: auto;
+}
+.x3{
+  padding: 1rem;
+  margin: auto;
+}
+
+}

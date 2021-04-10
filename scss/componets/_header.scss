@@ -1,17 +1,17 @@
 %principal{
     display: flex;
     justify-content: center;
-    font-size: 100px;
     margin-bottom: 0%;
   
 }
 
-
-
+$fuente4 : 'PT Sans Narrow', sans-serif;
 $color-letra: #e0b05b;
 $fuente1:'Tangerine', cursive;
 $fuente2 : 'Noto Sans JP', sans-serif;
 $color-fondo : #1c252c ;
+$fuente5 : 'Mr Bedfort', cursive;
+$fuente6 : 'Libre Caslon Display', serif;
 
 
 
@@ -24,16 +24,29 @@ $color-fondo : #1c252c ;
 
 .title{
     @extend%principal;
-    color: $color-letra;
+    color: #c6d0d8;
     margin-top: 300px ;
     margin-left: 100px;
-    font-family: $fuente1;
+    font-family: $fuente4;
+    font-size: 65px ;
+    
 }
 .title-2 {
     @extend%principal;
-    color: $color-letra;
-    margin-left: 500px;
-    font-family: $fuente2;
+    color: #b97e18;
+    margin-left: 700px;
+    font-family: $fuente5;
+    display: inline-block ;
+    font-size: 120px ;
+}
+
+.title-3{
+    @extend%principal;
+    display: inline-block;
+    color: #b97e18;
+    font-family: $fuente6;
+    font-size: 100px;
+    margin-left:15px ;
 }
 
 
@@ -44,23 +57,22 @@ $color-fondo : #1c252c ;
     button{
         text-decoration: none;
     background-color: $color-fondo;
-    color:$color-letra;
-    padding: 5px;
-    font-size: 35px;
+    color:black;
+    padding: 15px;
+    font-size: 25px;
     border-radius: 15px;
     border: none;
     transition: 1s;
     margin-left: 500px;
-    margin-top: 100px;
+    margin-top: 50px;
     &:hover{
         transform: scale(1.2);
         background-color: rgb(182, 182, 182);
-        color: rgb(255, 255, 255);
         }
 
         a{
           text-decoration: none;
-         color:$color-letra; 
+         color: #b97e18;
         }
      
    

@@ -4,10 +4,9 @@
   box-sizing: border-box;
 }
 
-.title-2, .title {
+.title-3, .title-2, .title {
   display: flex;
   justify-content: center;
-  font-size: 100px;
   margin-bottom: 0%;
 }
 
@@ -18,16 +17,27 @@
 }
 
 .title {
-  color: #e0b05b;
+  color: #c6d0d8;
   margin-top: 300px;
   margin-left: 100px;
-  font-family: "Tangerine", cursive;
+  font-family: "PT Sans Narrow", sans-serif;
+  font-size: 65px;
 }
 
 .title-2 {
-  color: #e0b05b;
-  margin-left: 500px;
-  font-family: "Noto Sans JP", sans-serif;
+  color: #b97e18;
+  margin-left: 700px;
+  font-family: "Mr Bedfort", cursive;
+  display: inline-block;
+  font-size: 120px;
+}
+
+.title-3 {
+  display: inline-block;
+  color: #b97e18;
+  font-family: "Libre Caslon Display", serif;
+  font-size: 100px;
+  margin-left: 15px;
 }
 
 .pagina-principal {
@@ -36,23 +46,22 @@
 .pagina-principal button {
   text-decoration: none;
   background-color: #1c252c;
-  color: #e0b05b;
-  padding: 5px;
-  font-size: 35px;
+  color: black;
+  padding: 15px;
+  font-size: 25px;
   border-radius: 15px;
   border: none;
   transition: 1s;
   margin-left: 500px;
-  margin-top: 100px;
+  margin-top: 50px;
 }
 .pagina-principal button:hover {
   transform: scale(1.2);
   background-color: #b6b6b6;
-  color: white;
 }
 .pagina-principal button a {
   text-decoration: none;
-  color: #e0b05b;
+  color: #b97e18;
 }
 
 .ca {
@@ -135,6 +144,77 @@
   font-family: "Oswald", sans-serif;
 }
 
+.navbar-toggler-icon {
+  font-size: 3rem;
+  color: white;
+}
+
+@media (max-width: 575.98px) {
+  .titulo, .titulo02 {
+    display: none;
+  }
+
+  .logo {
+    width: 4rem;
+    margin: auto;
+  }
+
+  .ca {
+    padding: 0 0 0 2rem;
+  }
+
+  .menu {
+    padding-right: 2rem;
+  }
+
+  .nav ul {
+    font-size: 0.8rem;
+  }
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .titulo, .titulo02 {
+    display: none;
+  }
+
+  .logo {
+    width: 4rem;
+    margin: auto;
+  }
+
+  .ca {
+    padding: 0 0 0 3rem;
+  }
+
+  .menu {
+    padding-right: 6rem;
+  }
+
+  .nav ul {
+    font-size: 1.2rem;
+  }
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .titulo, .titulo02, .BLA, .BLE {
+    display: none;
+  }
+
+  .logo {
+    width: 4rem;
+    margin: auto;
+  }
+
+  .ca {
+    padding: 0 0 0 3rem;
+  }
+
+  .menu {
+    padding-right: 6rem;
+  }
+
+  .nav ul {
+    font-size: 1.2rem;
+  }
+}
 #Contacto, .Especializacion, .C1, #Servicios, .Nosotros {
   background-color: #1c252c;
   text-align: center;
@@ -155,6 +235,8 @@
   margin-left: 50px;
   font-family: "Playfair Display SC", serif;
   font-size: 20px;
+  margin-left: 2rem;
+  margin-right: 2rem;
 }
 
 .parrafo-nosotros2 {
@@ -162,6 +244,8 @@
   font-family: "Playfair Display SC", serif;
   font-size: 20px;
   margin-top: 10px;
+  margin-left: 2rem;
+  margin-right: 2rem;
 }
 
 .boton-consulta {
@@ -182,6 +266,65 @@
   color: #000000;
 }
 
+@media (max-width: 575.98px) {
+  .titulonosotros {
+    font-size: 3.3rem;
+  }
+
+  .parrafo-nosotros {
+    font-size: 1.2rem;
+  }
+
+  .parrafo-nosotros2 {
+    font-size: 1.2rem;
+  }
+
+  .boton-nosotros {
+    font-size: 1rem;
+  }
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .titulonosotros {
+    font-size: 4rem;
+  }
+
+  .parrafo-nosotros {
+    font-size: 1rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+
+  .parrafo-nosotros2 {
+    font-size: 1rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+
+  .boton-nosotros {
+    font-size: 1rem;
+  }
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .titulonosotros {
+    font-size: 5rem;
+  }
+
+  .parrafo-nosotros {
+    font-size: 1.5rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+
+  .parrafo-nosotros2 {
+    font-size: 1.5rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+
+  .boton-nosotros {
+    font-size: 1.4rem;
+  }
+}
 .x3, .x2 {
   display: flex;
   justify-content: space-between;
@@ -209,12 +352,19 @@
   text-align: left;
 }
 
+.f1 {
+  display: flex;
+  flex-direction: column;
+}
+
 .p2 {
   text-align: center;
   font-family: "Playfair Display SC", serif;
   font-size: 30px;
   margin-top: 10px;
   color: #fbffff;
+  margin-left: 2rem;
+  margin-right: 2rem;
 }
 
 .t4 {
@@ -242,6 +392,100 @@
   font-family: "Playfair Display SC", serif;
 }
 
+.x2 {
+  padding: 1rem;
+  margin: auto;
+}
+
+.x3 {
+  padding: 1rem;
+  margin: auto;
+}
+
+@media (max-width: 575.98px) {
+  .titulo2, .t5 {
+    font-size: 3.8rem;
+  }
+
+  .p2 {
+    font-size: 1.2rem;
+  }
+
+  .S1, .S2, .S3, .S4 {
+    font-size: 1.2rem;
+    margin: 0 0 2rem 0;
+  }
+
+  .t6 {
+    font-size: 1.4rem;
+  }
+
+  .x2 {
+    padding: 1rem;
+    margin: auto;
+  }
+
+  .x3 {
+    padding: 1rem;
+    margin: auto;
+  }
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .titulo2, .t5 {
+    font-size: 3.8rem;
+  }
+
+  .p2 {
+    font-size: 1.2rem;
+  }
+
+  .S1, .S2, .S3, .S4 {
+    font-size: 1.2rem;
+    margin: 0 0 2rem 0;
+  }
+
+  .t6 {
+    font-size: 1.4rem;
+  }
+
+  .x2 {
+    padding: 1rem;
+    margin: auto;
+  }
+
+  .x3 {
+    padding: 1rem;
+    margin: auto;
+  }
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .titulo2, .t5 {
+    font-size: 4.8rem;
+  }
+
+  .p2 {
+    font-size: 1.7rem;
+  }
+
+  .S1, .S2, .S3, .S4 {
+    font-size: 1.7rem;
+    margin: 0 0 2rem 0;
+  }
+
+  .t6 {
+    font-size: 1.9rem;
+  }
+
+  .x2 {
+    padding: 1rem;
+    margin: auto;
+  }
+
+  .x3 {
+    padding: 1rem;
+    margin: auto;
+  }
+}
 .P3 {
   text-align: left;
   font-size: 40px;
@@ -256,6 +500,7 @@
   font-size: 28px;
   margin-left: 60px;
   font-family: "Playfair Display SC", serif;
+  margin-right: 4rem;
 }
 
 .P5 {
@@ -322,6 +567,74 @@
   background-color: #407fc7;
 }
 
+@media (max-width: 575.98px) {
+  .t7 {
+    font-size: 3.8rem;
+  }
+
+  .P3, .P5 {
+    font-size: 1.2rem;
+  }
+
+  .P4 {
+    font-size: 1rem;
+  }
+
+  .formulario button {
+    padding-right: 3.2rem;
+    padding-top: 0.8rem;
+    padding-bottom: 0.8rem;
+  }
+
+  textarea {
+    height: 9rem;
+  }
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .t7 {
+    font-size: 3.8rem;
+  }
+
+  .P3, .P5 {
+    font-size: 1.2rem;
+  }
+
+  .P4 {
+    font-size: 1.2rem;
+  }
+
+  .formulario button {
+    padding-right: 3.2rem;
+    padding-top: 0.8rem;
+    padding-bottom: 0.8rem;
+  }
+
+  textarea {
+    height: 9rem;
+  }
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .t7 {
+    font-size: 4.8rem;
+  }
+
+  .P3, .P5 {
+    font-size: 1.7rem;
+  }
+
+  .P4 {
+    font-size: 1.7rem;
+  }
+
+  .formulario button {
+    padding-top: 0.8rem;
+    padding-bottom: 0.8rem;
+  }
+
+  textarea {
+    height: 9rem;
+  }
+}
 .titulos-Especializacion {
   color: #e0b05b;
   text-align: center;
@@ -333,17 +646,68 @@
 .subtiulo-especializaciones {
   font-family: "Playfair Display SC", serif;
   font-size: 30px;
+  margin-left: 2rem;
+  margin-right: 2rem;
 }
 
 .texto-especializaciones {
   font-family: "Playfair Display SC", serif;
   font-size: 20px;
+  margin-left: 2rem;
+  margin-right: 2rem;
 }
 
-#Contacto img {
-  width: 40px;
-}
+@media (max-width: 575.98px) {
+  .t8 {
+    font-size: 3.8rem;
+  }
 
+  .titulos-Especializacion {
+    font-size: 2rem;
+  }
+
+  .subtiulo-especializaciones {
+    font-size: 1.5rem;
+  }
+
+  .texto-especializaciones {
+    font-size: 1.2rem;
+  }
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .t8 {
+    font-size: 3.8rem;
+  }
+
+  .titulos-Especializacion {
+    font-size: 2rem;
+  }
+
+  .subtiulo-especializaciones {
+    font-size: 1.5rem;
+  }
+
+  .texto-especializaciones {
+    font-size: 1.2rem;
+  }
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .t8 {
+    font-size: 4.8rem;
+  }
+
+  .titulos-Especializacion {
+    font-size: 2.5rem;
+  }
+
+  .subtiulo-especializaciones {
+    font-size: 2rem;
+  }
+
+  .texto-especializaciones {
+    font-size: 1.7rem;
+  }
+}
 .link {
   display: flex;
   flex-direction: column;
@@ -352,13 +716,11 @@
   bottom: 30px;
   right: 30px;
 }
-.link img {
-  border-radius: 50px;
-  margin-top: 10px;
-}
-.link img:hover {
-  transform: scale(1.3);
-  transition: 1s;
+
+.icon {
+  font-size: 2rem;
+  color: #e0b05b;
+  margin-bottom: 1rem;
 }
 
 .informacion {
@@ -368,11 +730,81 @@
   font-size: 30px;
   color: #fbffff;
   margin-top: 80px;
+  margin-right: 2rem;
 }
 
 .infomap {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
+}
+.infomap .mapa {
+  width: 50%;
+  display: flex;
+  align-content: center;
+}
+
+@media (max-width: 575.98px) {
+  .infomap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .t10 {
+    font-size: 3.2rem;
+  }
+
+  .informacion {
+    text-align: center;
+    font-size: 1.3rem;
+  }
+
+  .icon {
+    font-size: 1.3rem;
+    margin-bottom: 0.7rem;
+  }
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .infomap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .t10 {
+    font-size: 4rem;
+  }
+
+  .informacion {
+    text-align: center;
+    font-size: 2rem;
+  }
+
+  .icon {
+    font-size: 2rem;
+    margin-bottom: 0.7rem;
+  }
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .infomap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .t10 {
+    font-size: 7rem;
+  }
+
+  .informacion {
+    text-align: center;
+    font-size: 2rem;
+  }
+
+  .icon {
+    font-size: 2.5rem;
+    margin-bottom: 0.7rem;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
