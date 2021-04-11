@@ -82,15 +82,17 @@
 }
 
 .menu {
-  margin: auto;
+  display: flex;
+  justify-content: space-around;
 }
 
 .nav ul {
+  margin-top: 15px;
   list-style: none;
   font-family: "Oswald", sans-serif;
   font-size: 1rem;
   margin-right: 7px;
-  text-align: left;
+  text-align: right;
 }
 .nav ul li {
   display: inline-block;
@@ -108,7 +110,7 @@
 }
 
 .titulo {
-  font-size: 20px;
+  font-size: 30px;
   font-family: "Noto Sans JP", sans-serif;
   color: white;
   display: inline-block;
@@ -116,7 +118,7 @@
 }
 
 .titulo02 {
-  font-size: 25px;
+  font-size: 35px;
   font-family: "Archivo Narrow", sans-serif;
   display: inline-block;
   margin-left: 7px;
@@ -243,6 +245,7 @@
   .nav ul {
     font-size: 0.8rem;
     margin-bottom: 7px;
+    padding: 4px;
   }
 
   .logo {
@@ -381,7 +384,7 @@
     font-size: 1rem;
   }
 }
-.x3, .x2, .menu {
+.x3, .x2 {
   display: flex;
   justify-content: space-between;
 }
@@ -423,9 +426,9 @@
 
 .t4 {
   text-align: left;
-  font-size: 20px;
+  font-size: 30px;
   margin-bottom: 10px;
-  margin-left: 20px;
+  margin-left: 30px;
 }
 
 .P8 {
@@ -437,7 +440,7 @@
 .t6 {
   font-size: 30px;
   padding-bottom: 35px;
-  padding-top: 20px;
+  padding-top: 30px;
 }
 
 .X1 {
