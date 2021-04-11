@@ -63,7 +63,7 @@
     .icon{
         font-size: 1.3rem;
         margin-bottom: 0.7rem;
-     }
+    }
         
 
 
@@ -107,6 +107,29 @@
     .icon{
         font-size: 2.5rem;
         margin-bottom: 0.7rem;
-     }
+    
+     } 
 
 }
+@media (min-width: 768px) and (max-width: 991.98px){
+
+    
+    .infomap{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+       
+    }
+    .t10{
+        font-size: 7rem;
+    }
+    .informacion{
+        text-align: center;
+        font-size: 2rem;
+    }
+    .icon{
+        font-size: 2.5rem;
+        margin-bottom: 0.7rem;
+    
+     } 
+    }

@@ -2,7 +2,7 @@ $bg-nav:rgb(129, 33, 33);
 $bg-let: rgb(255, 255, 255);
 $nod:  none;
 $c-l: black;
-$letrageneral:40px;
+$letrageneral:20px;
 $tamaño1:80px;
 $fuente-nav :'Oswald', sans-serif;
 
@@ -33,15 +33,17 @@ $fuente-nav :'Oswald', sans-serif;
     align-items: center;
 }
 .menu{ 
-    @extend %flexsbac; 
-    padding-right: $tamaño1;
+    @extend %flexsb; 
+    margin: auto;
+    
 } 
 
 .nav ul { 
 
     list-style: none;
     font-family: $fuente-nav;
-    font-size: 20px;
+    font-size: 1rem;
+    margin-right: 7px;
 
     li{
         display: inline-block;
@@ -72,7 +74,7 @@ $fuente-nav :'Oswald', sans-serif;
 }
 
 .titulo02{
-    font-size: 45px;
+    font-size: 25px;
     font-family: 'Archivo Narrow', sans-serif;
     display: inline-block;
     margin-left: 7px;
@@ -80,8 +82,8 @@ $fuente-nav :'Oswald', sans-serif;
 
 
 .logo {
-   width: 60px;
-   margin-bottom: 20px;
+   width: 20px;
+   margin-bottom: 10px;
 }    
 .BLA{
     font-size: 25px;
@@ -158,4 +160,33 @@ $fuente-nav :'Oswald', sans-serif;
          .nav ul {
             font-size: 1.2rem;
                  }
+}
+
+@media (min-width: 991.98px) and (max-width: 1200px){
+
+    .titulo{
+        font-size: 1.4rem;
+    }
+
+    .titulo02{
+        font-size: 1.6rem;
+    }
+    .BLE {
+        font-size: 0.8rem;
+
+    }
+    .BLA {
+        font-size: 0.9rem;
+
+    }
+    .nav ul {
+        font-size: 0.8rem;
+        margin-bottom: 7px;
+        
+             }
+             .logo{
+                width: 2rem;
+                margin-bottom: 0.4rem;
+               
+             }
 }

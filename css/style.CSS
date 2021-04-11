@@ -82,19 +82,14 @@
 }
 
 .menu {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.menu {
-  padding-right: 80px;
+  margin: auto;
 }
 
 .nav ul {
   list-style: none;
   font-family: "Oswald", sans-serif;
-  font-size: 20px;
+  font-size: 1rem;
+  margin-right: 7px;
 }
 .nav ul li {
   display: inline-block;
@@ -112,7 +107,7 @@
 }
 
 .titulo {
-  font-size: 40px;
+  font-size: 20px;
   font-family: "Noto Sans JP", sans-serif;
   color: white;
   display: inline-block;
@@ -120,15 +115,15 @@
 }
 
 .titulo02 {
-  font-size: 45px;
+  font-size: 25px;
   font-family: "Archivo Narrow", sans-serif;
   display: inline-block;
   margin-left: 7px;
 }
 
 .logo {
-  width: 60px;
-  margin-bottom: 20px;
+  width: 20px;
+  margin-bottom: 10px;
 }
 
 .BLA {
@@ -213,6 +208,33 @@
 
   .nav ul {
     font-size: 1.2rem;
+  }
+}
+@media (min-width: 991.98px) and (max-width: 1200px) {
+  .titulo {
+    font-size: 1.4rem;
+  }
+
+  .titulo02 {
+    font-size: 1.6rem;
+  }
+
+  .BLE {
+    font-size: 0.8rem;
+  }
+
+  .BLA {
+    font-size: 0.9rem;
+  }
+
+  .nav ul {
+    font-size: 0.8rem;
+    margin-bottom: 7px;
+  }
+
+  .logo {
+    width: 2rem;
+    margin-bottom: 0.4rem;
   }
 }
 #Contacto, .Especializacion, .C1, #Servicios, .Nosotros {
@@ -322,10 +344,31 @@
   }
 
   .boton-nosotros {
-    font-size: 1.4rem;
+    font-size: 1rem;
   }
 }
-.x3, .x2 {
+@media (min-width: 768px) and (max-width: 991.98px) and (min-width: 991.98px) and (max-width: 1200px) {
+  .titulonosotros {
+    font-size: 2rem;
+  }
+
+  .parrafo-nosotros {
+    font-size: 1.5rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+
+  .parrafo-nosotros2 {
+    font-size: 1.5rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+
+  .boton-nosotros {
+    font-size: 1rem;
+  }
+}
+.x3, .x2, .menu {
   display: flex;
   justify-content: space-between;
 }
@@ -369,9 +412,9 @@
 
 .t4 {
   text-align: left;
-  font-size: 40px;
+  font-size: 20px;
   margin-bottom: 10px;
-  margin-left: 40px;
+  margin-left: 20px;
 }
 
 .P8 {
@@ -383,7 +426,7 @@
 .t6 {
   font-size: 30px;
   padding-bottom: 35px;
-  padding-top: 40px;
+  padding-top: 20px;
 }
 
 .X1 {
@@ -469,6 +512,34 @@
 
   .S1, .S2, .S3, .S4 {
     font-size: 1.7rem;
+    margin: 0 0 2rem 0;
+  }
+
+  .t6 {
+    font-size: 1.9rem;
+  }
+
+  .x2 {
+    padding: 1rem;
+    margin: auto;
+  }
+
+  .x3 {
+    padding: 1rem;
+    margin: auto;
+  }
+}
+@media (min-width: 991.98px) and (max-width: 1200px) {
+  .titulo2, .t5 {
+    font-size: 4.8rem;
+  }
+
+  .p2 {
+    font-size: 1.3rem;
+  }
+
+  .S1, .S2, .S3, .S4 {
+    font-size: 1.5rem;
     margin: 0 0 2rem 0;
   }
 
@@ -619,11 +690,33 @@
   }
 
   .P3, .P5 {
-    font-size: 1.7rem;
+    font-size: 1.3rem;
   }
 
   .P4 {
-    font-size: 1.7rem;
+    font-size: 1.3rem;
+  }
+
+  .formulario button {
+    padding-top: 0.8rem;
+    padding-bottom: 0.8rem;
+  }
+
+  textarea {
+    height: 9rem;
+  }
+}
+@media (min-width: 991.98px) and (max-width: 1200px) {
+  .t7 {
+    font-size: 4.8rem;
+  }
+
+  .P3, .P5 {
+    font-size: 1.3rem;
+  }
+
+  .P4 {
+    font-size: 1.3rem;
   }
 
   .formulario button {
@@ -705,7 +798,24 @@
   }
 
   .texto-especializaciones {
-    font-size: 1.7rem;
+    font-size: 1.3rem;
+  }
+}
+@media (min-width: 991.98px) and (max-width: 1200px) {
+  .t8 {
+    font-size: 4.8rem;
+  }
+
+  .titulos-Especializacion {
+    font-size: 2.5rem;
+  }
+
+  .subtiulo-especializaciones {
+    font-size: 2rem;
+  }
+
+  .texto-especializaciones {
+    font-size: 1.3rem;
   }
 }
 .link {
@@ -782,6 +892,27 @@
 
   .icon {
     font-size: 2rem;
+    margin-bottom: 0.7rem;
+  }
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .infomap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .t10 {
+    font-size: 7rem;
+  }
+
+  .informacion {
+    text-align: center;
+    font-size: 2rem;
+  }
+
+  .icon {
+    font-size: 2.5rem;
     margin-bottom: 0.7rem;
   }
 }
