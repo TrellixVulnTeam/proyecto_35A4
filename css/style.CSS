@@ -69,7 +69,6 @@
   color: white;
   padding-top: 15px;
   padding-bottom: 15px;
-  padding-left: 40px;
   position: fixed;
   top: 0%;
   right: 0%;
@@ -115,6 +114,7 @@
   color: white;
   display: inline-block;
   margin-right: 7px;
+  margin-left: 40px;
 }
 
 .titulo02 {
@@ -311,15 +311,15 @@
   }
 
   .parrafo-nosotros {
-    font-size: 1.2rem;
+    font-size: 1rem;
   }
 
   .parrafo-nosotros2 {
-    font-size: 1.2rem;
+    font-size: 0.7rem;
   }
 
   .boton-nosotros {
-    font-size: 1rem;
+    font-size: 0.7rem;
   }
 }
 @media (min-width: 576px) and (max-width: 767.98px) {
@@ -466,7 +466,7 @@
   }
 
   .p2 {
-    font-size: 1.2rem;
+    font-size: 0.7rem;
   }
 
   .S1, .S2, .S3, .S4 {
@@ -598,7 +598,6 @@
 
 .form-row {
   width: 60%;
-  padding: 50px;
   margin: 0 0 40px 0;
   display: inline-block;
 }
@@ -659,17 +658,21 @@
   }
 
   .P3, .P5 {
-    font-size: 1.2rem;
+    font-size: 0.7rem;
   }
 
   .P4 {
-    font-size: 1rem;
+    font-size: 0.6rem;
   }
 
   .formulario button {
     padding-right: 3.2rem;
     padding-top: 0.8rem;
     padding-bottom: 0.8rem;
+  }
+
+  label {
+    font-size: 0.7rem;
   }
 
   textarea {
@@ -771,15 +774,15 @@
   }
 
   .titulos-Especializacion {
-    font-size: 2rem;
+    font-size: 1.2rem;
   }
 
   .subtiulo-especializaciones {
-    font-size: 1.5rem;
+    font-size: 1rem;
   }
 
   .texto-especializaciones {
-    font-size: 1.2rem;
+    font-size: 0.7rem;
   }
 }
 @media (min-width: 576px) and (max-width: 767.98px) {
@@ -813,7 +816,7 @@
   }
 
   .texto-especializaciones {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
   }
 }
 @media (min-width: 991.98px) and (max-width: 1200px) {

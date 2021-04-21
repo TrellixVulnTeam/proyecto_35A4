@@ -12,7 +12,7 @@ $fuente-nav :'Oswald', sans-serif;
     color: $bg-let;
     padding-top: 15px;
     padding-bottom: 15px;
-    padding-left: 40px;
+   
     position: fixed ;
     top: 0%;
     right: 0%;
@@ -75,6 +75,7 @@ $fuente-nav :'Oswald', sans-serif;
     color: $bg-let;
     display: inline-block;
     margin-right:7px;
+    margin-left: 40px;
 
     
 }
