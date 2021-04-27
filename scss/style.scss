@@ -4,7 +4,7 @@
     box-sizing: border-box; 
     
 }
-
+ 
 @import "componets/header" ;
 @import "componets/navegacion";
 @import "componets/nosotros" ;
@@ -13,6 +13,9 @@
 @import "componets/especializacion" ;
 @import "componets/contacto" ;
 
+body{
+    background-color: #1c252c ;
+}
 
 
 

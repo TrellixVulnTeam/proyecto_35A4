@@ -4,66 +4,6 @@
   box-sizing: border-box;
 }
 
-.title-3, .title-2, .title {
-  display: flex;
-  justify-content: center;
-  margin-bottom: 0%;
-}
-
-.body-index {
-  background-image: url(../img/IF.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.title {
-  color: #c6d0d8;
-  margin-top: 300px;
-  margin-left: 100px;
-  font-family: "PT Sans Narrow", sans-serif;
-  font-size: 65px;
-}
-
-.title-2 {
-  color: #b97e18;
-  margin-left: 700px;
-  font-family: "Mr Bedfort", cursive;
-  display: inline-block;
-  font-size: 120px;
-}
-
-.title-3 {
-  display: inline-block;
-  color: #b97e18;
-  font-family: "Libre Caslon Display", serif;
-  font-size: 100px;
-  margin-left: 15px;
-}
-
-.pagina-principal {
-  text-align: center;
-}
-.pagina-principal button {
-  text-decoration: none;
-  background-color: #1c252c;
-  color: black;
-  padding: 15px;
-  font-size: 25px;
-  border-radius: 15px;
-  border: none;
-  transition: 1s;
-  margin-left: 500px;
-  margin-top: 50px;
-}
-.pagina-principal button:hover {
-  transform: scale(1.2);
-  background-color: #b6b6b6;
-}
-.pagina-principal button a {
-  text-decoration: none;
-  color: #b97e18;
-}
-
 .ca {
   background-color: #1c252c;
   color: white;
@@ -958,6 +898,9 @@
     font-size: 2.5rem;
     margin-bottom: 0.7rem;
   }
+}
+body {
+  background-color: #1c252c;
 }
 
 /*# sourceMappingURL=style.css.map */
